@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Portfolio Page</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    thead {
+        background-color: #f2f2f2;
+    }
+</style>
 </head>
 <body>
     <header>
+        <h1>Portfolio</h1>
         <h1>Koshanova Asem</h1>
         <p>Student</p>
     </header>
@@ -15,6 +30,7 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
         <a href="https://github.com/asema-1216" target="_blank" rel="noopener">My GitHub</a>
+        <a href="#table">Programming Language Table</a>
     </nav>
     <main>
         <h2 id="about">About Me</h2>
@@ -36,5 +52,52 @@
     <footer>
         <p>2026 Asem</p>
     </footer>
+
+
+
+    <h2 id="table">Programming Languages</h2>
+<table>
+    <caption> Programming Languages</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Paradigm</th>
+            <th>Creator</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Python</th>
+            <td>1991</td>
+            <td>Object-oriented</td>
+            <td>Guido van Rossum</td>
+        </tr>
+        <tr>
+            <th>JavaScript</th>
+            <td>1995</td>
+            <td>Multi-paradigm</td>
+            <td>Brendan Eich</td>
+        </tr>
+        <tr>
+            <th>Java</th>
+            <td>1995</td>
+            <td>Object-oriented</td>
+            <td>James Gosling</td>
+        </tr>
+        <tr>
+            <th>C++</th>
+            <td>1985</td>
+            <td>Multi-paradigm</td>
+            <td>Bjarne Stroustrup</td>
+        </tr>
+        <tr>
+            <th>C#</th>
+            <td>2000</td>
+            <td>Object-oriented</td>
+            <td>Anders Hejlsberg</td>
+        </tr>
+    </tbody>
+</table>
 </body>
 </html>
