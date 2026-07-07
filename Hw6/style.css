@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.form-control:not(:focus):invalid {
+    border-color: #EF4444 !important;
+}
+
+.form-control:valid {
+    border-color: #198754 !important;
+}
+
+.error-message {
+    color: #EF4444;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+    display: block;
+}
