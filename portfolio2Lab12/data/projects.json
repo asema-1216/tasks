@@ -1,0 +1,8 @@
+[
+    { "id": 1, "title": "DNS Analysis", "description": "Simulated and analyzed Domain Name System traffic logs to inspect query-response patterns.", "category": "networking", "image": "Lab1.jpg" },
+    { "id": 2, "title": "Strawberry Cupid Layout", "description": "A coquette-themed aesthetic e-commerce interface designed with strict visual hierarchy principles.", "category": "design", "image": "Lab1.jpg" },
+    { "id": 3, "title": "Security Campaign", "description": "Simulated social engineering assessment and corresponding defense framework presentation.", "category": "security", "image": "Lab1.jpg" },
+    { "id": 4, "title": "Streamer Widgets", "description": "Interactive dashboard components focused entirely on live audience engagement metrics.", "category": "design", "image": "Lab1.jpg" },
+    { "id": 5, "title": "Economic CO\u2082 Trends", "description": "Comparative analysis studying the correlation between GDP per capita and global emissions (2012-2022).", "category": "networking", "image": "Lab1.jpg" },
+    { "id": 6, "title": "Rococo Room Model", "description": "Stylized low-poly interior scenes created in Blender using intricate historical decorative motives.", "category": "design", "image": "Lab1.jpg" }
+]
